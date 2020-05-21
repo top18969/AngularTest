@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --dev --output-path docs --base-href /angtest/",
     "test": "ng test",
     "tc-test": "ng test --single-run  --reporters=teamcity",
     "lint": "ng lint",
